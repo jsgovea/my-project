@@ -1,7 +1,0 @@
-site_name: Proyecto Matemáticas
-pages:
-- Inicio: index.md
-markdown_extensions:
-  - codehilite
-theme:
-  name: 'material'
