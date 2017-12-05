@@ -1,0 +1,19 @@
+site_name: Proyecto Matemáticas
+pages:
+- Inicio: index.md
+markdown_extensions:
+  - codehilite
+theme:
+  name: 'material'
+copyright: 'Copyright &copy; 2017 Jorge Soto'
+markdown_extensions:
+  - toc:
+      permalink: Link
+  
+# Customization
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/jsgovea'
+    - type: 'linkedin'
+      link: 'https://www.linkedin.com/in/jorge-alejandro-199369130/'
