@@ -1,0 +1,64 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Tarea\nLink\n\n\nCentro de Estudios Superiores del Noroeste\nLink\n\n\n\n\n\n\nNombre del Alumno\n - Jorge Soto Govea\n\n\nMateria\n - Matem\u00e1ticas Discretas\n\n\nNombre del Maestro\n - Manuel Iv\u00e1n Ca\u00f1ez Garc\u00eda\n\n\nActividad\n - Proyecto Final \n\n\nFecha de Entrega\n - Martes 5 de Diciembre de 2017\n\n\n\n\nProblemas\nLink\n\n\nProblema 1\nLink\n\n\nInicio \nnumero = 0\n\nIMPRIMIR ingrese un numero entero\nLEER numero\nIF(numero % 2 == 0)\n{\n\n}else if(j + 1; \n raiz(i))\n{\n    IMPRIMIR es numero primo\n}\n\nFIN\n\n\n\n\nProblema 2\nLink\n\n\nINICIO\n\nnumero = 0\nsumatoria = 0;\nresultado; \n\nIMPRIMIR ingrese un numero entero\nLEER numero\nFOR(i = 0; numero\n0; i++)\n{\n    FOR(j = 2; j\ni; j++)\n    {\n        IF(i % j == 0)\n        {\n            sumatoria++;\n        }\n    }\n}\n\nsumatoria = resultado;\n\nIMPRIMIR resultado;\n\nFIN\n\n\n\n\nProblema 3\nLink\n\n\nCompilar\n.\n\n\n#include \niostream\n\n#include \nmath.h\n\n\nint main(int argc, const char * argv[]) {\n        for (int i=2; i\n100; i++)\n            for (int j=2; j*j\n=i; j++)\n            {\n                if (i % j == 0)\n                    break;\n                else if (j+1 \n sqrt(i)) {\n                    std::cout \n i \n \n \n;\n\n                }\n\n            }\n\n        return 0;\n}\n\n\n\n\n\nProblema 4\nLink\n\n\nINICIO\n\n numero = 0;\nfactorial\n\n ESCRIBIR ingrese un numero\n LEER numero\n\n WHILE(numero != 0)\n {\n     factorial = factorial * numero;\n     numero = numero - 1;\n }\n\n ESCRIBIR factorial\n\n FIN\n\n\n\n\nProblema 5\nLink\n\n\nINICIO\n\na, b = 0\ndiferencia\n\nESCRIBIR ingrese el valor para a\nLEER a\nESCRIBIR ingrese el valor para b\nLEER b\n\nWHILE(diferencia \n 0)\n{\n    IF(a \n b)\n    {\n        a = b\n        b = diferencia\n        diferencia = a % b\n    }ELSE IF\n    {\n        ESCRIBIR a debe ser mayor a b \n    }\n}\n\nESCRIBIR el maximo comun divisor es b\n\nFIN\n\n\n\n\nProblema 6\nLink\n\n\nCompilar\n.\n\n\n#include \niostream\n\n\nint main(int argc, const char * argv[]) {\n    int numero = 0;\n\n    std::cout \n \nIngrese un numero: \n;\n    std::scanf(\n%d\n, \nnumero);\n\n    if(numero % 2 == 0)\n    {\n        std::cout \n \n\\nEl numero es par\n;\n    }else\n        std::cout \n \n\\nNumero impar\n;\n\n    return 0;\n}\n\n\n\n\nProblema 7\nLink\n\n\nINICIO\n\nnumero = 0\n\nESCRIBIR ingrese un numero\nLEER numero\n\nIF(num % 3 == 0)\n{\n    ESCRIBIR el numero es multiplo de 3\n}ELSE\n    ESCRIBIR el numero no es multiplo de 3\n\nFIN\n\n\n\n\nProblema 8\nLink\n\n\nINICIO\n\narreglo[1, 2, 3, 4, 5]\narreglo[].length\nnumero = 0\n\nWHILE(numero != arreglo.lenght)\n {\n     factorial = factorial * arreglo.length;\n     numero = numero - 1;\n }\n\n ESCRIBIR factorial\n\nFIN", 
+            "title": "Inicio"
+        }, 
+        {
+            "location": "/#tarea", 
+            "text": "", 
+            "title": "Tarea"
+        }, 
+        {
+            "location": "/#centro-de-estudios-superiores-del-noroeste", 
+            "text": "Nombre del Alumno  - Jorge Soto Govea  Materia  - Matem\u00e1ticas Discretas  Nombre del Maestro  - Manuel Iv\u00e1n Ca\u00f1ez Garc\u00eda  Actividad  - Proyecto Final   Fecha de Entrega  - Martes 5 de Diciembre de 2017", 
+            "title": "Centro de Estudios Superiores del Noroeste"
+        }, 
+        {
+            "location": "/#problemas", 
+            "text": "", 
+            "title": "Problemas"
+        }, 
+        {
+            "location": "/#problema-1", 
+            "text": "Inicio \nnumero = 0\n\nIMPRIMIR ingrese un numero entero\nLEER numero\nIF(numero % 2 == 0)\n{\n\n}else if(j + 1;   raiz(i))\n{\n    IMPRIMIR es numero primo\n}\n\nFIN", 
+            "title": "Problema 1"
+        }, 
+        {
+            "location": "/#problema-2", 
+            "text": "INICIO\n\nnumero = 0\nsumatoria = 0;\nresultado; \n\nIMPRIMIR ingrese un numero entero\nLEER numero\nFOR(i = 0; numero 0; i++)\n{\n    FOR(j = 2; j i; j++)\n    {\n        IF(i % j == 0)\n        {\n            sumatoria++;\n        }\n    }\n}\n\nsumatoria = resultado;\n\nIMPRIMIR resultado;\n\nFIN", 
+            "title": "Problema 2"
+        }, 
+        {
+            "location": "/#problema-3", 
+            "text": "Compilar .  #include  iostream \n#include  math.h \n\nint main(int argc, const char * argv[]) {\n        for (int i=2; i 100; i++)\n            for (int j=2; j*j =i; j++)\n            {\n                if (i % j == 0)\n                    break;\n                else if (j+1   sqrt(i)) {\n                    std::cout   i      ;\n\n                }\n\n            }\n\n        return 0;\n}", 
+            "title": "Problema 3"
+        }, 
+        {
+            "location": "/#problema-4", 
+            "text": "INICIO\n\n numero = 0;\nfactorial\n\n ESCRIBIR ingrese un numero\n LEER numero\n\n WHILE(numero != 0)\n {\n     factorial = factorial * numero;\n     numero = numero - 1;\n }\n\n ESCRIBIR factorial\n\n FIN", 
+            "title": "Problema 4"
+        }, 
+        {
+            "location": "/#problema-5", 
+            "text": "INICIO\n\na, b = 0\ndiferencia\n\nESCRIBIR ingrese el valor para a\nLEER a\nESCRIBIR ingrese el valor para b\nLEER b\n\nWHILE(diferencia   0)\n{\n    IF(a   b)\n    {\n        a = b\n        b = diferencia\n        diferencia = a % b\n    }ELSE IF\n    {\n        ESCRIBIR a debe ser mayor a b \n    }\n}\n\nESCRIBIR el maximo comun divisor es b\n\nFIN", 
+            "title": "Problema 5"
+        }, 
+        {
+            "location": "/#problema-6", 
+            "text": "Compilar .  #include  iostream \n\nint main(int argc, const char * argv[]) {\n    int numero = 0;\n\n    std::cout    Ingrese un numero:  ;\n    std::scanf( %d ,  numero);\n\n    if(numero % 2 == 0)\n    {\n        std::cout    \\nEl numero es par ;\n    }else\n        std::cout    \\nNumero impar ;\n\n    return 0;\n}", 
+            "title": "Problema 6"
+        }, 
+        {
+            "location": "/#problema-7", 
+            "text": "INICIO\n\nnumero = 0\n\nESCRIBIR ingrese un numero\nLEER numero\n\nIF(num % 3 == 0)\n{\n    ESCRIBIR el numero es multiplo de 3\n}ELSE\n    ESCRIBIR el numero no es multiplo de 3\n\nFIN", 
+            "title": "Problema 7"
+        }, 
+        {
+            "location": "/#problema-8", 
+            "text": "INICIO\n\narreglo[1, 2, 3, 4, 5]\narreglo[].length\nnumero = 0\n\nWHILE(numero != arreglo.lenght)\n {\n     factorial = factorial * arreglo.length;\n     numero = numero - 1;\n }\n\n ESCRIBIR factorial\n\nFIN", 
+            "title": "Problema 8"
+        }
+    ]
+}

@@ -251,8 +251,8 @@ For full documentation visit [mkdocs.org](http://mkdocs.org). -->
 * `mkdocs help` - Print this help message.
 * `portada` -->
 
-<h1 id="tarea">Tarea</h1>
-<h2 id="centro-de-estudios-superiores-del-noroeste">Centro de Estudios Superiores del Noroeste</h2>
+<h1 id="tarea">Tarea<a class="headerlink" href="#tarea" title="Permanent link">Link</a></h1>
+<h2 id="centro-de-estudios-superiores-del-noroeste">Centro de Estudios Superiores del Noroeste<a class="headerlink" href="#centro-de-estudios-superiores-del-noroeste" title="Permanent link">Link</a></h2>
 <p><img alt="Logo" src="./img/cesun.png" /></p>
 <ul>
 <li><code>Nombre del Alumno</code> - Jorge Soto Govea</li>
@@ -261,9 +261,9 @@ For full documentation visit [mkdocs.org](http://mkdocs.org). -->
 <li><code>Actividad</code> - Proyecto Final </li>
 <li><code>Fecha de Entrega</code> - Martes 5 de Diciembre de 2017</li>
 </ul>
-<h1 id="problemas">Problemas</h1>
-<h2 id="problema-1">Problema 1</h2>
-<div class="codehilite"><pre><span></span>Inicio 
+<h1 id="problemas">Problemas<a class="headerlink" href="#problemas" title="Permanent link">Link</a></h1>
+<h2 id="problema-1">Problema 1<a class="headerlink" href="#problema-1" title="Permanent link">Link</a></h2>
+<pre><code>Inicio 
 numero = 0
 
 IMPRIMIR ingrese un numero entero
@@ -277,11 +277,10 @@ IF(numero % 2 == 0)
 }
 
 FIN
-</pre></div>
+</code></pre>
 
-
-<h2 id="problema-2">Problema 2</h2>
-<div class="codehilite"><pre><span></span>INICIO
+<h2 id="problema-2">Problema 2<a class="headerlink" href="#problema-2" title="Permanent link">Link</a></h2>
+<pre><code>INICIO
 
 numero = 0
 sumatoria = 0;
@@ -305,34 +304,33 @@ sumatoria = resultado;
 IMPRIMIR resultado;
 
 FIN
-</pre></div>
+</code></pre>
 
-
-<h2 id="problema-3">Problema 3</h2>
+<h2 id="problema-3">Problema 3<a class="headerlink" href="#problema-3" title="Permanent link">Link</a></h2>
 <p><a href="https://codepad.remoteinterview.io/XPNDLATXPR">Compilar</a>.</p>
-<div class="codehilite"><pre><span></span><span class="cp">#include</span> <span class="cpf">&lt;iostream&gt;</span><span class="cp"></span>
-<span class="cp">#include</span> <span class="cpf">&lt;math.h&gt;</span><span class="cp"></span>
+<pre><code class="c++">#include &lt;iostream&gt;
+#include &lt;math.h&gt;
 
-<span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="k">const</span> <span class="kt">char</span> <span class="o">*</span> <span class="n">argv</span><span class="p">[])</span> <span class="p">{</span>
-        <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span><span class="o">=</span><span class="mi">2</span><span class="p">;</span> <span class="n">i</span><span class="o">&lt;</span><span class="mi">100</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span>
-            <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">j</span><span class="o">=</span><span class="mi">2</span><span class="p">;</span> <span class="n">j</span><span class="o">*</span><span class="n">j</span><span class="o">&lt;=</span><span class="n">i</span><span class="p">;</span> <span class="n">j</span><span class="o">++</span><span class="p">)</span>
-            <span class="p">{</span>
-                <span class="k">if</span> <span class="p">(</span><span class="n">i</span> <span class="o">%</span> <span class="n">j</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span>
-                    <span class="k">break</span><span class="p">;</span>
-                <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">j</span><span class="o">+</span><span class="mi">1</span> <span class="o">&gt;</span> <span class="n">sqrt</span><span class="p">(</span><span class="n">i</span><span class="p">))</span> <span class="p">{</span>
-                    <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">i</span> <span class="o">&lt;&lt;</span> <span class="s">&quot; &quot;</span><span class="p">;</span>
+int main(int argc, const char * argv[]) {
+        for (int i=2; i&lt;100; i++)
+            for (int j=2; j*j&lt;=i; j++)
+            {
+                if (i % j == 0)
+                    break;
+                else if (j+1 &gt; sqrt(i)) {
+                    std::cout &lt;&lt; i &lt;&lt; &quot; &quot;;
 
-                <span class="p">}</span>
+                }
 
-            <span class="p">}</span>
+            }
 
-        <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
-<span class="p">}</span>
-</pre></div>
+        return 0;
+}
 
+</code></pre>
 
-<h2 id="problema-4">Problema 4</h2>
-<div class="codehilite"><pre><span></span>INICIO
+<h2 id="problema-4">Problema 4<a class="headerlink" href="#problema-4" title="Permanent link">Link</a></h2>
+<pre><code>INICIO
 
  numero = 0;
 factorial
@@ -349,11 +347,10 @@ factorial
  ESCRIBIR factorial
 
  FIN
-</pre></div>
+</code></pre>
 
-
-<h2 id="problema-5">Problema 5</h2>
-<div class="codehilite"><pre><span></span>INICIO
+<h2 id="problema-5">Problema 5<a class="headerlink" href="#problema-5" title="Permanent link">Link</a></h2>
+<pre><code>INICIO
 
 a, b = 0
 diferencia
@@ -379,32 +376,30 @@ WHILE(diferencia &gt; 0)
 ESCRIBIR el maximo comun divisor es b
 
 FIN
-</pre></div>
+</code></pre>
 
-
-<h2 id="problema-6">Problema 6</h2>
+<h2 id="problema-6">Problema 6<a class="headerlink" href="#problema-6" title="Permanent link">Link</a></h2>
 <p><a href="https://codepad.remoteinterview.io/ZAXZTAQIQB">Compilar</a>.</p>
-<div class="codehilite"><pre><span></span><span class="cp">#include</span> <span class="cpf">&lt;iostream&gt;</span><span class="cp"></span>
+<pre><code class="c++">#include &lt;iostream&gt;
 
-<span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="k">const</span> <span class="kt">char</span> <span class="o">*</span> <span class="n">argv</span><span class="p">[])</span> <span class="p">{</span>
-    <span class="kt">int</span> <span class="n">numero</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+int main(int argc, const char * argv[]) {
+    int numero = 0;
 
-    <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&quot;Ingrese un numero: &quot;</span><span class="p">;</span>
-    <span class="n">std</span><span class="o">::</span><span class="n">scanf</span><span class="p">(</span><span class="s">&quot;%d&quot;</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">numero</span><span class="p">);</span>
+    std::cout &lt;&lt; &quot;Ingrese un numero: &quot;;
+    std::scanf(&quot;%d&quot;, &amp;numero);
 
-    <span class="k">if</span><span class="p">(</span><span class="n">numero</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span>
-    <span class="p">{</span>
-        <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&quot;</span><span class="se">\n</span><span class="s">El numero es par&quot;</span><span class="p">;</span>
-    <span class="p">}</span><span class="k">else</span>
-        <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&quot;</span><span class="se">\n</span><span class="s">Numero impar&quot;</span><span class="p">;</span>
+    if(numero % 2 == 0)
+    {
+        std::cout &lt;&lt; &quot;\nEl numero es par&quot;;
+    }else
+        std::cout &lt;&lt; &quot;\nNumero impar&quot;;
 
-    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
-<span class="p">}</span>
-</pre></div>
+    return 0;
+}
+</code></pre>
 
-
-<h2 id="problema-7">Problema 7</h2>
-<div class="codehilite"><pre><span></span>INICIO
+<h2 id="problema-7">Problema 7<a class="headerlink" href="#problema-7" title="Permanent link">Link</a></h2>
+<pre><code>INICIO
 
 numero = 0
 
@@ -418,11 +413,10 @@ IF(num % 3 == 0)
     ESCRIBIR el numero no es multiplo de 3
 
 FIN
-</pre></div>
+</code></pre>
 
-
-<h2 id="problema-8">Problema 8</h2>
-<div class="codehilite"><pre><span></span>INICIO
+<h2 id="problema-8">Problema 8<a class="headerlink" href="#problema-8" title="Permanent link">Link</a></h2>
+<pre><code>INICIO
 
 arreglo[1, 2, 3, 4, 5]
 arreglo[].length
@@ -437,7 +431,7 @@ WHILE(numero != arreglo.lenght)
  ESCRIBIR factorial
 
 FIN
-</pre></div>
+</code></pre>
                 
                   
                 
@@ -457,6 +451,10 @@ FIN
     <div class="md-footer-meta__inner md-grid">
       <div class="md-footer-copyright">
         
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; 2017 Jorge Soto
+          </div>
+        
         powered by
         <a href="http://www.mkdocs.org">MkDocs</a>
         and
@@ -465,6 +463,16 @@ FIN
       </div>
       
         
+  <div class="md-footer-social">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+      <a href="https://github.com/jsgovea" class="md-footer-social__link fa fa-github"></a>
+    
+      <a href="https://www.linkedin.com/in/jorge-alejandro-199369130/" class="md-footer-social__link fa fa-linkedin"></a>
+    
+  </div>
+
       
     </div>
   </div>
